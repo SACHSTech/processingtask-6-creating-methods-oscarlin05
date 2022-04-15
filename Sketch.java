@@ -78,8 +78,14 @@ public class Sketch extends PApplet {
     fill(sunR, sunG, sunB);
     ellipse(sunX, sunY, sunSizeX, sunSizeY);
 
+    line(sunX - 50, sunY, sunX - 30, sunY);
+    line(sunX + 30, sunY, sunX + 50, sunY);
+    line(sunX - 50, sunY + 25, sunX - 30, sunY + 15);
+    line(sunX + 30, sunY + 15, sunX + 50, sunY + 25);
+    line(sunX - 50, sunY - 20, sunX - 30, sunY - 15);
+    line(sunX + 30, sunY - 15, sunX + 50, sunY - 20);
+
     return (int) sunX;
   }
 }
-
   // define other methods down here.
